@@ -21,7 +21,7 @@ const HeroSection = () => {
             <div className="relative z-10 text-center text-white px-4">
                 <div className="flex flex-col gap-5 my-10">
                     <span className="mx-auto px-6 py-3 rounded-full bg-white text-[#F83002] font-medium shadow-lg">
-                        No. 1 Job Hunt Website
+                        No. 1 Job finder Website
                     </span>
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight animate-slideInFromLeft">
     Search, Apply & <br />
