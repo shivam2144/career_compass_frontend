@@ -28,7 +28,12 @@ const CompanyCreate = () => {
                 const companyId = res?.data?.company?._id;
                 navigate(`/admin/companies/${companyId}`);
             }
+            else{
+                //console.log("Error in creating company");
+                 toast.error("company already exists, please try with a different name.");
+            }
         } catch (error) {
+            console.log("first error");
             console.log(error);
         }
     }
